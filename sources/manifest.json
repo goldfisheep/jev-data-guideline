@@ -1,0 +1,25 @@
+{
+  "revision": "f8ce71361165846101d02ebc83ad44e47ae44fc3",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/f8ce71361165846101d02ebc83ad44e47ae44fc3/LICENSE",
+      "sha256": "3e5beed774bb0bcbfb2fcf24ba9554212c6ae112937d308040989465ab0c5784"
+    },
+    {
+      "path": "datasets/public/original.jsonl",
+      "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/f8ce71361165846101d02ebc83ad44e47ae44fc3/datasets/public/original.jsonl",
+      "sha256": "5c2414edb3006b8bfcb70fda433f0f9ca015759433849f8d3104328a1f7c4180"
+    },
+    {
+      "path": "datasets/public/easy.jsonl",
+      "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/f8ce71361165846101d02ebc83ad44e47ae44fc3/datasets/public/easy.jsonl",
+      "sha256": "231df3c2c8e88a1a8c137ebe85de96ba70fabd330849098ac7b3c52c70b7172b"
+    },
+    {
+      "path": "datasets/public/hard.jsonl",
+      "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/f8ce71361165846101d02ebc83ad44e47ae44fc3/datasets/public/hard.jsonl",
+      "sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb"
+    }
+  ]
+}

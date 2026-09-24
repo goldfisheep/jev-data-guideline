@@ -1,0 +1,33 @@
+{
+  "records": 231,
+  "by_type": {
+    "choice": 139,
+    "noul": 74,
+    "score": 18
+  },
+  "by_family": {
+    "intent": 24,
+    "extraction": 24,
+    "routing": 12,
+    "tool_selection": 12,
+    "long_policy": 19,
+    "probability": 10,
+    "temporal_numeric": 15,
+    "ambiguous": 7,
+    "multi_hop": 18,
+    "tradeoff": 6,
+    "adversarial": 6,
+    "trap": 8,
+    "routing_hard": 5,
+    "policy": 12,
+    "adequacy": 12,
+    "fact": 12,
+    "judge_hard": 17,
+    "ordinal": 12
+  },
+  "automatic_checks_passed": true,
+  "errors": [],
+  "not_human_accepted": 231,
+  "release_ready": false,
+  "note": "Structural/provenance checks only. No model inference or human label review performed."
+}

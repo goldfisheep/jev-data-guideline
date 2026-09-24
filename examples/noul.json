@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1",
+  "id": "jevbench/original-policy-01-0",
+  "task_type": "noul",
+  "input": {
+    "state": "Policy: refunds require a receipt and purchase within 30 days. A customer bought 12 days ago but has no receipt. Issue a refund.",
+    "questions": {
+      "q": {
+        "criteria": {
+          "false": "A condition is missing or a prohibition applies.",
+          "true": "Every required condition is established and no prohibition applies."
+        },
+        "instructions": "Under the stated policy, is the requested action permitted? Treat unproved required conditions as not satisfied.",
+        "type": "noul"
+      }
+    }
+  },
+  "gold": {
+    "q": {
+      "label": false
+    }
+  },
+  "metadata": {
+    "source_id": "jevbench",
+    "source_url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/f8ce71361165846101d02ebc83ad44e47ae44fc3/datasets/public/original.jsonl",
+    "source_revision": "f8ce71361165846101d02ebc83ad44e47ae44fc3",
+    "source_sample_id": "original-policy-01-0",
+    "group_id": "jevbench/original-policy-01",
+    "split": "eval",
+    "original_split": "public",
+    "license": "MIT",
+    "label_origin": "Explicit rubric, reviewed before inference",
+    "family": "policy",
+    "language": "en",
+    "transformation": "Preserve question; yes/no to boolean; score to number; wrap and assign q. Preserve string state.",
+    "review": {
+      "status": "pending",
+      "reviewers": [],
+      "note": "Upstream label retained; local human review not performed."
+    }
+  }
+}
