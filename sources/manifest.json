@@ -19,7 +19,25 @@
     {
       "path": "datasets/public/hard.jsonl",
       "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/f8ce71361165846101d02ebc83ad44e47ae44fc3/datasets/public/hard.jsonl",
-      "sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb"
+      "sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb",
+      "parts": [
+        {
+          "path": "sources/jevbench/hard-part000.jsonl",
+          "sha256": "d6cea698001e23f7fd6dc9aa3b4d831f427f233b09b5124e965c43b1060c5b68"
+        },
+        {
+          "path": "sources/jevbench/hard-part001.jsonl",
+          "sha256": "a76e0efef8f5537bf4bb77eef7f1fb62f38b78f7153d0a747d5fe7c5fa013da5"
+        },
+        {
+          "path": "sources/jevbench/hard-part002.jsonl",
+          "sha256": "fbebdcbaf54b63b4c6bedc067965c00f353d745a1d2a2e681e96100827edc725"
+        },
+        {
+          "path": "sources/jevbench/hard-part003.jsonl",
+          "sha256": "26d436eb0c5ca6c1a5be965568451a0defbef205a2debe3d349fed3473067679"
+        }
+      ]
     }
   ]
 }

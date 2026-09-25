@@ -10,7 +10,9 @@ def main():
     count = 0
     with (output/'requests.jsonl').open('w',encoding='utf-8') as target:
         for source in sorted((ROOT/'data').glob('*/*.jsonl')):
-            for line in source.read_text(encoding='utf-8').splitlines():
+            for line in source.read_text(encoding='utf-8').split('\n'):
+                if not line.strip():
+                    continue
                 r = json.loads(line)
                 if r['metadata']['review']['status'] == 'rejected':
                     continue

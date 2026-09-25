@@ -1,0 +1,490 @@
+{
+ "sources": {
+  "banking77": {
+   "primitive": "choice",
+   "hf_id": "mteb/banking77",
+   "hf_config": null,
+   "license": "cc-by-4.0 (PolyAI; mirror: mit)",
+   "domain": "customer-support",
+   "task_family": "intent-routing",
+   "k": 77,
+   "has_soft_labels": false,
+   "description": "Route a customer's banking message to one of 77 intents.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/banking77/test.jsonl",
+    "validation": "data/banking77/validation.jsonl",
+    "train": "data/banking77/train.jsonl"
+   }
+  },
+  "clinc150": {
+   "primitive": "choice",
+   "hf_id": "clinc/clinc_oos",
+   "hf_config": "plus",
+   "license": "cc-by-3.0",
+   "domain": "virtual-assistant",
+   "task_family": "intent-routing",
+   "k": 151,
+   "has_soft_labels": false,
+   "description": "Classify an assistant query into one of 150 intents or 'oos' (out of scope).",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/clinc150/test.jsonl",
+    "validation": "data/clinc150/validation.jsonl",
+    "train": "data/clinc150/train.jsonl"
+   }
+  },
+  "massive": {
+   "primitive": "choice",
+   "hf_id": "mteb/amazon_massive_intent",
+   "hf_config": "en",
+   "license": "cc-by-4.0 (Amazon; mirror: apache-2.0)",
+   "domain": "virtual-assistant",
+   "task_family": "intent-routing",
+   "k": 60,
+   "has_soft_labels": false,
+   "description": "Classify a smart-assistant utterance into one of 60 intents.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/massive/test.jsonl",
+    "validation": "data/massive/validation.jsonl",
+    "train": "data/massive/train.jsonl"
+   }
+  },
+  "ledgar": {
+   "primitive": "choice",
+   "hf_id": "coastalcph/lex_glue",
+   "hf_config": "ledgar",
+   "license": "cc-by-4.0",
+   "domain": "legal",
+   "task_family": "topic-classification",
+   "k": 100,
+   "has_soft_labels": false,
+   "description": "Classify a contract clause into one of 100 provision categories.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/ledgar/test.jsonl",
+    "validation": "data/ledgar/validation.jsonl",
+    "train": "data/ledgar/train.jsonl"
+   }
+  },
+  "go_emotions": {
+   "primitive": "choice",
+   "hf_id": "google-research-datasets/go_emotions",
+   "hf_config": "raw",
+   "license": "apache-2.0",
+   "domain": "social",
+   "task_family": "emotion",
+   "k": 28,
+   "has_soft_labels": true,
+   "description": "Which emotion does a Reddit comment primarily express (27 emotions + neutral)? soft_label = rater vote shares.",
+   "notes": "v0.1.1: rebuilt from the raw config with rater vote shares as soft labels (v0.1 used the single-label 'simplified' subset).",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/go_emotions/test.jsonl",
+    "validation": "data/go_emotions/validation.jsonl",
+    "train": "data/go_emotions/train.jsonl"
+   }
+  },
+  "mmlu": {
+   "primitive": "choice",
+   "hf_id": "cais/mmlu",
+   "hf_config": "all",
+   "license": "mit",
+   "domain": "knowledge",
+   "task_family": "mcq",
+   "k": 4,
+   "has_soft_labels": false,
+   "description": "Answer a multiple-choice exam question (A/B/C/D) across 57 academic subjects.",
+   "notes": "train = MMLU 'dev' (5-shot examples); no auxiliary_train.",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 285
+   },
+   "files": {
+    "test": "data/mmlu/test.jsonl",
+    "validation": "data/mmlu/validation.jsonl",
+    "train": "data/mmlu/train.jsonl"
+   }
+  },
+  "arc_challenge": {
+   "primitive": "choice",
+   "hf_id": "allenai/ai2_arc",
+   "hf_config": "ARC-Challenge",
+   "license": "cc-by-sa-4.0",
+   "domain": "knowledge",
+   "task_family": "mcq",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Answer a science exam question from its lettered options.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 299,
+    "train": 1119
+   },
+   "files": {
+    "test": "data/arc_challenge/test.jsonl",
+    "validation": "data/arc_challenge/validation.jsonl",
+    "train": "data/arc_challenge/train.jsonl"
+   }
+  },
+  "mnli": {
+   "primitive": "choice",
+   "hf_id": "nyu-mll/glue",
+   "hf_config": "mnli",
+   "license": "other (GLUE/MultiNLI, research use)",
+   "domain": "nli",
+   "task_family": "nli",
+   "k": 3,
+   "has_soft_labels": false,
+   "description": "Does the hypothesis follow from, contradict, or remain undetermined by the premise?",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/mnli/test.jsonl",
+    "validation": "data/mnli/validation.jsonl",
+    "train": "data/mnli/train.jsonl"
+   }
+  },
+  "sst5": {
+   "primitive": "score",
+   "hf_id": "SetFit/sst5",
+   "hf_config": null,
+   "license": "unspecified (Stanford Sentiment Treebank)",
+   "domain": "reviews",
+   "task_family": "sentiment",
+   "k": 5,
+   "has_soft_labels": false,
+   "description": "Rate the sentiment of a movie-review sentence on five levels.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/sst5/test.jsonl",
+    "validation": "data/sst5/validation.jsonl",
+    "train": "data/sst5/train.jsonl"
+   }
+  },
+  "yelp5": {
+   "primitive": "score",
+   "hf_id": "Yelp/yelp_review_full",
+   "hf_config": "yelp_review_full",
+   "license": "other (Yelp Dataset License, research use)",
+   "domain": "reviews",
+   "task_family": "rating",
+   "k": 5,
+   "has_soft_labels": false,
+   "description": "Predict the star rating (1\u20135) a Yelp reviewer gave from the review text.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/yelp5/test.jsonl",
+    "validation": "data/yelp5/validation.jsonl",
+    "train": "data/yelp5/train.jsonl"
+   }
+  },
+  "helpsteer2_helpfulness": {
+   "primitive": "score",
+   "hf_id": "nvidia/HelpSteer2",
+   "hf_config": null,
+   "license": "cc-by-4.0",
+   "domain": "llm-judging",
+   "task_family": "response-quality",
+   "k": 5,
+   "has_soft_labels": false,
+   "description": "Rate how helpful an assistant response is to the user's prompt (HelpSteer2 helpfulness, 0\u20134).",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/helpsteer2_helpfulness/test.jsonl",
+    "validation": "data/helpsteer2_helpfulness/validation.jsonl",
+    "train": "data/helpsteer2_helpfulness/train.jsonl"
+   }
+  },
+  "helpsteer2_verbosity": {
+   "primitive": "score",
+   "hf_id": "nvidia/HelpSteer2",
+   "hf_config": null,
+   "license": "cc-by-4.0",
+   "domain": "llm-judging",
+   "task_family": "response-quality",
+   "k": 5,
+   "has_soft_labels": false,
+   "description": "Rate the length of an assistant response relative to what the prompt asked for (HelpSteer2 verbosity, 0 succinct \u2013 4 verbose).",
+   "notes": "v0.1.1: level descriptions replaced with the paper's verbatim scale; v0.1 wrongly framed 0/1 as 'too short' and 2 as 'appropriate'.",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/helpsteer2_verbosity/test.jsonl",
+    "validation": "data/helpsteer2_verbosity/validation.jsonl",
+    "train": "data/helpsteer2_verbosity/train.jsonl"
+   }
+  },
+  "stsb": {
+   "primitive": "score",
+   "hf_id": "sentence-transformers/stsb",
+   "hf_config": "default",
+   "license": "cc-by-sa-4.0 (STS Benchmark)",
+   "domain": "nli",
+   "task_family": "semantic-similarity",
+   "k": 6,
+   "has_soft_labels": false,
+   "description": "Rate how similar in meaning two sentences are on the 0\u20135 STS scale.",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 5749
+   },
+   "files": {
+    "test": "data/stsb/test.jsonl",
+    "validation": "data/stsb/validation.jsonl",
+    "train": "data/stsb/train.jsonl"
+   }
+  },
+  "measuring_hate_speech": {
+   "primitive": "score",
+   "hf_id": "ucberkeley-dlab/measuring-hate-speech",
+   "hf_config": "default",
+   "license": "cc-by-4.0",
+   "domain": "safety",
+   "task_family": "hate-speech",
+   "k": 3,
+   "has_soft_labels": true,
+   "description": "Does the comment contain hate speech? Three levels with annotator distributions as soft labels.",
+   "notes": "Aggregated from annotator-level rows; soft_label = annotator vote shares over the 3 levels.",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/measuring_hate_speech/test.jsonl",
+    "validation": "data/measuring_hate_speech/validation.jsonl",
+    "train": "data/measuring_hate_speech/train.jsonl"
+   }
+  },
+  "boolq": {
+   "primitive": "noul",
+   "hf_id": "google/boolq",
+   "hf_config": "default",
+   "license": "cc-by-sa-3.0",
+   "domain": "reading-comprehension",
+   "task_family": "grounded-yes-no",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Given a Wikipedia passage, is the answer to the question yes?",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 472,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/boolq/test.jsonl",
+    "validation": "data/boolq/validation.jsonl",
+    "train": "data/boolq/train.jsonl"
+   }
+  },
+  "fever_evidence": {
+   "primitive": "noul",
+   "hf_id": "copenlu/fever_gold_evidence",
+   "hf_config": null,
+   "license": "cc-by-sa-3.0",
+   "domain": "fact-checking",
+   "task_family": "grounded-yes-no",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Given gold Wikipedia evidence sentences, is the claim supported (yes) or refuted (no)?",
+   "notes": "NOT ENOUGH INFO rows are dropped so the question is a clean yes/no.",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/fever_evidence/test.jsonl",
+    "validation": "data/fever_evidence/validation.jsonl",
+    "train": "data/fever_evidence/train.jsonl"
+   }
+  },
+  "paws": {
+   "primitive": "noul",
+   "hf_id": "google-research-datasets/paws",
+   "hf_config": "labeled_final",
+   "license": "other (Google PAWS, free for research and commercial use)",
+   "domain": "nli",
+   "task_family": "paraphrase",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Do two sentences with high lexical overlap actually mean the same thing?",
+   "notes": "",
+   "counts": {
+    "test": 1000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/paws/test.jsonl",
+    "validation": "data/paws/validation.jsonl",
+    "train": "data/paws/train.jsonl"
+   }
+  },
+  "civil_comments": {
+   "primitive": "noul",
+   "hf_id": "google/civil_comments",
+   "hf_config": "default",
+   "license": "cc0-1.0",
+   "domain": "safety",
+   "task_family": "toxicity",
+   "k": "variable",
+   "has_soft_labels": true,
+   "description": "Is this online comment toxic? Soft label = share of annotators who said yes.",
+   "notes": "Natural class balance (~8% toxic); test cap raised to 2000 so positives are not too thin. train/validation are drawn from the 97k-row HF validation split (the 1.8M-row train split is not needed).",
+   "counts": {
+    "test": 2000,
+    "validation": 500,
+    "train": 8000
+   },
+   "files": {
+    "test": "data/civil_comments/test.jsonl",
+    "validation": "data/civil_comments/validation.jsonl",
+    "train": "data/civil_comments/train.jsonl"
+   }
+  },
+  "sms_spam": {
+   "primitive": "noul",
+   "hf_id": "ucirvine/sms_spam",
+   "hf_config": "plain_text",
+   "license": "unknown (UCI SMS Spam Collection, public)",
+   "domain": "messaging",
+   "task_family": "spam",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Is this SMS message spam?",
+   "notes": "",
+   "counts": {
+    "test": 800,
+    "validation": 237,
+    "train": 4000
+   },
+   "files": {
+    "test": "data/sms_spam/test.jsonl",
+    "validation": "data/sms_spam/validation.jsonl",
+    "train": "data/sms_spam/train.jsonl"
+   }
+  },
+  "strategyqa_closed": {
+   "primitive": "noul",
+   "hf_id": "ChilleD/StrategyQA",
+   "hf_config": null,
+   "license": "mit",
+   "domain": "knowledge",
+   "task_family": "implicit-reasoning",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Answer an implicit multi-hop yes/no question from world knowledge alone.",
+   "notes": "",
+   "counts": {
+    "test": 687,
+    "validation": 160,
+    "train": 1400
+   },
+   "files": {
+    "test": "data/strategyqa_closed/test.jsonl",
+    "validation": "data/strategyqa_closed/validation.jsonl",
+    "train": "data/strategyqa_closed/train.jsonl"
+   }
+  },
+  "strategyqa_grounded": {
+   "primitive": "noul",
+   "hf_id": "ChilleD/StrategyQA",
+   "hf_config": null,
+   "license": "mit",
+   "domain": "knowledge",
+   "task_family": "grounded-yes-no",
+   "k": "variable",
+   "has_soft_labels": false,
+   "description": "Same questions with the supporting facts supplied in the state.",
+   "notes": "",
+   "counts": {
+    "test": 687,
+    "validation": 160,
+    "train": 1400
+   },
+   "files": {
+    "test": "data/strategyqa_grounded/test.jsonl",
+    "validation": "data/strategyqa_grounded/validation.jsonl",
+    "train": "data/strategyqa_grounded/train.jsonl"
+   }
+  },
+  "chaosnli": {
+   "primitive": "choice",
+   "hf_id": "metaeval/chaos-mnli-ambiguity",
+   "hf_config": "default",
+   "license": "cc-by-sa-4.0 (ChaosNLI; Hub mirror of the MNLI portion)",
+   "domain": "nli",
+   "task_family": "nli",
+   "k": 3,
+   "has_soft_labels": true,
+   "description": "MNLI items re-annotated by 100 crowdworkers each; soft_label = human vote shares (calibration gold).",
+   "notes": "Evaluation only. Original release: https://github.com/easonnie/ChaosNLI",
+   "counts": {
+    "test": 1599
+   },
+   "files": {
+    "test": "data/chaosnli/test.jsonl"
+   }
+  }
+ },
+ "name": "jev-bench",
+ "version": "0.1.1",
+ "seed": 20260920,
+ "sampling": "natural",
+ "built_at": "2026-09-20T09:46:25+00:00",
+ "git_commit": "unknown"
+}

@@ -1,0 +1,887 @@
+{
+  "files": [
+    {
+      "path": "sources/jevify/banking77/test.jsonl",
+      "sha256": "a2f6cca4b60c2a8bd2e46a2c3f3637fa5854e2eda3fc402e636b7667290c83df",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/banking77/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/banking77/test-part000.jsonl",
+          "sha256": "e58ccf8944c6c63072841adf8a5ca131375fd7e30290a4c111243aaa6d4d1cd3"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part001.jsonl",
+          "sha256": "8c40c36bf2e1ad5fe855c23beb9bb19ee03774960477769fffea783a890d1de4"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part002.jsonl",
+          "sha256": "abc80b698146a4543b27bd726754edc73c93487c2b97cbcdccbca1cac5161684"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part003.jsonl",
+          "sha256": "21b2ae1861c3f55f1687e46299ef6c4ee676fc7eb7cda019c1699d23dfc822ff"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part004.jsonl",
+          "sha256": "0cd5d72c9191b31413449f84ffe08f05df3fd2b91f9e297a57ec6b06e6f6dbe1"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part005.jsonl",
+          "sha256": "6413f9a1b57f63e3d75e3775808b23268688dd859d9c73a3a64acfe58666e7a8"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part006.jsonl",
+          "sha256": "76b36007aa88b7665785c3011452001036b4895283a386baad1d72b3d1bd3766"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part007.jsonl",
+          "sha256": "47a7ad1f39ff2fc43b58d37c876e610f01f153e5a9eba5a62c0a1689b0d157ed"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part008.jsonl",
+          "sha256": "b879c88e1c60655abffb377f83a88841db5abd1fe2ad9942ea2b2559684cf451"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part009.jsonl",
+          "sha256": "4e5034fde00ffa032e9184adaa4b11703f8edc5bea1fabf1da1b230a28c1724f"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part010.jsonl",
+          "sha256": "320b61394763ddbed8a7b4fffecae5ed2cbe082c4f277893aad865056a372d93"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part011.jsonl",
+          "sha256": "21871d02f7b45c0f2814c714d3fe0101c3d072c104fef3313b9f094b9d079df3"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part012.jsonl",
+          "sha256": "f0637592b9772a44bb35e9fb6214aaffaef5f5456efd2f3b756fb92b689bc78a"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part013.jsonl",
+          "sha256": "d6f85e6ecf1d9c552e9d201d42bad38bd9f19eda98982accb5c18301d2bb28ca"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part014.jsonl",
+          "sha256": "3395e6f100c1bda4e8c4cc52ce5bcf39e0ac9eb2f3ad1ebff8cfa53305beae57"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part015.jsonl",
+          "sha256": "7b6be3bb2f4defd3208c7f2a8c73f6c1c88c673e02e428c3eade53bc593d022f"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part016.jsonl",
+          "sha256": "4b5164d9cb9ff8b4fdd97f35d4579b9d4889af1fe923a6b8a30a600b9f7fad5f"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part017.jsonl",
+          "sha256": "e4d04d2a0d79daeb355c8bc0e86d6270eef65e1c499ffc53a15e1d0e97a19d9d"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part018.jsonl",
+          "sha256": "ffe357d5590b67c15b7d662388ff1440a7b33ff31dee26d77206861fff28c935"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part019.jsonl",
+          "sha256": "8d6dca5db8e33e590892f2d04858769e9f6c311696ed7b2afaaec38d852d1f94"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part020.jsonl",
+          "sha256": "c0e9c81cd5ce42fb41d2d8cda468496b72a5c66f4a09d2ef69e0bacf7978fd87"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part021.jsonl",
+          "sha256": "a37135932233ab0f43dbaaac5026042dcc34dfa5a34c998b669920647fdde015"
+        },
+        {
+          "path": "sources/jevify/banking77/test-part022.jsonl",
+          "sha256": "0ada3154dd029455c5cee6c01808e7cd5eb3bdfde4e1ca41daea49e9e63c10f9"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/clinc150/test.jsonl",
+      "sha256": "1e59e5b9f9f9b799619338e4e7c7e825ffa5afabcd6f1f451b578e028e9d4086",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/clinc150/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/clinc150/test-part000.jsonl",
+          "sha256": "16ef69b2cee466678a7994e05d36b752bfc579d3ed986238e70bdc89b9c5609e"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part001.jsonl",
+          "sha256": "ea0957fbd48398ce12b09bd01a44e14f180065877d7baea471eacd1bc6a4f1e2"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part002.jsonl",
+          "sha256": "962bc41aa4e0db2a989b7f33a5fab8a229de514535a323abff13592adf13c7a9"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part003.jsonl",
+          "sha256": "1485088f7f1152984714d7ee44b45124317c17eb2ec12b3e4648aa9761da19bf"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part004.jsonl",
+          "sha256": "7b544cafc643d551494265fdd7454cc0a5b974c5b02ffe723040c2ec25e13dcb"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part005.jsonl",
+          "sha256": "4622baf9da7e83fdd2a5e110d84dfafd8fdce102cff2e1f92b3ea2f6ea035e6b"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part006.jsonl",
+          "sha256": "f125f0bd36dad4f21980f856466c4d86fe046a1323a8da36df6e44887f3ee493"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part007.jsonl",
+          "sha256": "0f281de6352188e31fde7d41ef154843802709d9be2113c7a6c374dff1b39d5c"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part008.jsonl",
+          "sha256": "754f3b69fc3aa37c0fef5d43406987e1b84726976e85efe134be809da98d9596"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part009.jsonl",
+          "sha256": "b136213667fcf9fb50b0726d6edffaed07925354742a4c0109491b955ebaf347"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part010.jsonl",
+          "sha256": "ac77d98e93fa5d8622082acfe519ccefa1dbd1e4c34040c358fa8a6b258d4653"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part011.jsonl",
+          "sha256": "b872bcd568fc26786566dc670ecca20b181335d3f5d1166c926a42720f2fd702"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part012.jsonl",
+          "sha256": "77c38727d58b26d92416e3cb60140fb0f43ee1ca248aa7e1aaf2be5dce08b4b1"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part013.jsonl",
+          "sha256": "0cd111186f1c61c453e3ae386e7d6b0a35a92ba7d49a2239d58a5c0bfdc3e655"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part014.jsonl",
+          "sha256": "7d4870666a8a10cfe5a7d491cd2b25743f9644c3169621bdf3f1b19fac0b4204"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part015.jsonl",
+          "sha256": "d8cd7f18f1157408773f321db8f61fa2e421d6fe45741882490fce8e8a758614"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part016.jsonl",
+          "sha256": "c6308bfd74fcdce169a8c59eca83e12eadd0510b4f05a17097051bc1e9ff3e9a"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part017.jsonl",
+          "sha256": "85d0b029ab29426d6c2cb965a0ef772ca9833abee185655e2be42fe6202e7249"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part018.jsonl",
+          "sha256": "aa229e8a77747a251175ec3398d80f847b5c46e05f3fdbd3abdbe832dfb7b2c6"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part019.jsonl",
+          "sha256": "14f2139cb6e352e97f8ffcab1c2e40fedb67d2cb0fe2d143f5768acf750616f8"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part020.jsonl",
+          "sha256": "0332f020b0fff31fe111da907734b92932a0451182cf4ef35efcb1f44504eb05"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part021.jsonl",
+          "sha256": "6dc7fb6b0bcb823d90d695760e9a322780358e910c3ac5697c71389be1376a0b"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part022.jsonl",
+          "sha256": "01f7a194e7fe32d27097dc9744062dbb39df46a9436308b6c69041704325f1ea"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part023.jsonl",
+          "sha256": "29c8e61d864f547c38bab5456eb175acda19a24a7c4939e6bddd930bed691f7c"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part024.jsonl",
+          "sha256": "c3c2ac098b84515befdd9725ca1ed96e89bba188dc1520c0cf9a3efba2a755eb"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part025.jsonl",
+          "sha256": "a300f0e2192b9efbf73f20688ef75a0ffbbbb9a67bffc1bc3fdb3a64375f4548"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part026.jsonl",
+          "sha256": "817ba9f17c69b51765ef25ce87efcadc6d97cad0ca3f2ca7341fb0ee02f44621"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part027.jsonl",
+          "sha256": "26599545c4f6e34322943c4f9846a1a9194d1b24a44d6f8681a68fd90f924846"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part028.jsonl",
+          "sha256": "8e4ba7e7babb29a40b8ea21c9dcc13d3890bcd166b32e4ae010579e35f4b1b83"
+        },
+        {
+          "path": "sources/jevify/clinc150/test-part029.jsonl",
+          "sha256": "53f42cc008cd30891c87fccd86105c21123e78956197070d7b11822d025430c8"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/massive/test.jsonl",
+      "sha256": "2653fa0ff6dcbb01bb19fd0e9b55d5c64cbe778556304862b69ab88cdcaf2233",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/massive/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/massive/test-part000.jsonl",
+          "sha256": "38d931317fc92144197135241d46f54e81dd191df5e5cab7750c9484e19419ca"
+        },
+        {
+          "path": "sources/jevify/massive/test-part001.jsonl",
+          "sha256": "89fc38954752266fbe1193fd761976605c3341ddf7d12391738d204a590d38b2"
+        },
+        {
+          "path": "sources/jevify/massive/test-part002.jsonl",
+          "sha256": "a7198c68e0cf4c5b0f080f71cddfdf4a58ffcbbc66f99e7763d28743ed0f8967"
+        },
+        {
+          "path": "sources/jevify/massive/test-part003.jsonl",
+          "sha256": "8bf374c99e195b59d8ddba22bbb7de93b6d23d9a4f49aa637353b52cc5d0dda2"
+        },
+        {
+          "path": "sources/jevify/massive/test-part004.jsonl",
+          "sha256": "89cccaed685800a35add4a67b3f676c31b73be4714c7d8cf7a9f4b889df6edb7"
+        },
+        {
+          "path": "sources/jevify/massive/test-part005.jsonl",
+          "sha256": "dece7770844363e75b18745667aaeeaebeecd8772052b172e69469fe6aff2164"
+        },
+        {
+          "path": "sources/jevify/massive/test-part006.jsonl",
+          "sha256": "569275875a3cdae08fb277962a1bdb95360f3505eace8d4074cef2189c292dfe"
+        },
+        {
+          "path": "sources/jevify/massive/test-part007.jsonl",
+          "sha256": "62a09f7a3be79ad1dee4e4610e8b01ab5941845c2ac3326034f586936c5bebde"
+        },
+        {
+          "path": "sources/jevify/massive/test-part008.jsonl",
+          "sha256": "b7ac4d31c511b882313d1d4d557db71bf8f6a250853fb48c5fa1275d2f2778db"
+        },
+        {
+          "path": "sources/jevify/massive/test-part009.jsonl",
+          "sha256": "34cb425fb507b4ae448ccb438c1bf9520c729935be1416c920bbff52c0bc3890"
+        },
+        {
+          "path": "sources/jevify/massive/test-part010.jsonl",
+          "sha256": "8d2a5570247f69643d15eaa7efe1fd5372a902303a1f47f7ada81f7d3051a0af"
+        },
+        {
+          "path": "sources/jevify/massive/test-part011.jsonl",
+          "sha256": "655bbc9d398242bf0d3c73746cdc5e4e6728d40ec645a68965ef7acaad69df3a"
+        },
+        {
+          "path": "sources/jevify/massive/test-part012.jsonl",
+          "sha256": "fcc61febb64dacdfccc7ff8356c1e926e5d97a6fe111b052aa383e7254b64afa"
+        },
+        {
+          "path": "sources/jevify/massive/test-part013.jsonl",
+          "sha256": "38f092dcae8258e7fc25faab755978ca4b842f14a18129ee5b03d9a8c26a763d"
+        },
+        {
+          "path": "sources/jevify/massive/test-part014.jsonl",
+          "sha256": "71cf0b0675bc426dc08d9bf474218e5bce24e3daf0b47ca8e819a1bd526e1133"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/ledgar/test.jsonl",
+      "sha256": "df75038cda52427febb1d2217c3ef8215a344670987200f62bed55563ef8c026",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/ledgar/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/ledgar/test-part000.jsonl",
+          "sha256": "4194c718f0ba5ec1a374ed25f7822f8f2223b5227135841b37b822bd5ef478bc"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part001.jsonl",
+          "sha256": "2827d28b5dd804e92f21d07e97462c0700885471cae41b41b37ebde2bdd0f0bf"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part002.jsonl",
+          "sha256": "7950a3a8fedeb63e6f29254a8c6b36e006eb034b17054fdd2e900fc5357f64ef"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part003.jsonl",
+          "sha256": "4ad3b41ac10d4b4675192c4314689de62f065af411fb7f10fc12a2748dedcf49"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part004.jsonl",
+          "sha256": "5b1a5cdcf829b1d652d8dc8bd1ce7b989987f12752e477665c1d7ecf44d8fbf2"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part005.jsonl",
+          "sha256": "26dbb4c510600d1b0dbd65bd985a4bfe88e77caec4b7a2ceda8d8e6a2703234e"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part006.jsonl",
+          "sha256": "1947286022d6d0cf1abe28ecf5a4e5b01a96a51ce5fbb9b20f3c180c28d369e2"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part007.jsonl",
+          "sha256": "5ae26da9afcdf37c366118c9f54159127fd550d1fd50fd653285ebca0c6cb73c"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part008.jsonl",
+          "sha256": "ef50a9350c131a9b3a6f212a823adaea88bdf0012731a17621c28050fd9f0313"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part009.jsonl",
+          "sha256": "6cc75381c11d793296d36067be1f4aa7ec759a4815963beb4586f4953bd9b9e7"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part010.jsonl",
+          "sha256": "00b99ab350aa62b5720d8885e060321d3ca65bea30908c392bd1d0aeefdaf919"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part011.jsonl",
+          "sha256": "30a978809362bd9e4f5bbbc40c3adda61bcbb77d8b9b8d374e9909ebe0e28eb5"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part012.jsonl",
+          "sha256": "965f89e7cdc65777037f4f88197f8fa8a2d4cdca8ebb7e231d00cfa4421921bb"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part013.jsonl",
+          "sha256": "374afed8c5eccba403d1a707db2b7a26589fb684a3d9f624b0d0bbb7b837b667"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part014.jsonl",
+          "sha256": "8313003e810cbeb0a39c7ddf991570545bdc653f45f477a3882b97b7aeecb0ac"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part015.jsonl",
+          "sha256": "0425a5e83b8f0e5967b3aaf4b2e080200e8aa430cb8f2d6ba008089553c9e8f8"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part016.jsonl",
+          "sha256": "abeca89ed919e4dd27708a6a6b0849c13ebcd9f3acbc04fac5251b4d494c43eb"
+        },
+        {
+          "path": "sources/jevify/ledgar/test-part017.jsonl",
+          "sha256": "7e82cc2cf8362777d9f4011aa9830ea8e4ac2fca58076173833b094e10f4b986"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/go_emotions/test.jsonl",
+      "sha256": "5495bf7524f856825374458cad1512ce1b3b8ce6bfa91dfd5a80665e78dba2b4",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/go_emotions/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/go_emotions/test-part000.jsonl",
+          "sha256": "78ddb35f202204753b0b95a483ded156fae86f35fe42a599abaff2b714808fef"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part001.jsonl",
+          "sha256": "8227b9e9f8be9b4d48d5d147248984e4d56d2e464dc2919f02a60b30ee1ff7a4"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part002.jsonl",
+          "sha256": "8822d38fd4f83151ef6bfde4bb9c2cc27c1df4b2b9b44734bce37604cc0f36cf"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part003.jsonl",
+          "sha256": "e44e3ed17cd0f9da9da57cf42d65ebd1f11f70f13e9af07ac42c3030ffdfb459"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part004.jsonl",
+          "sha256": "645d011414fc44a1269b5a5685821a960a421dec827be3011bd08c1a78032c8c"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part005.jsonl",
+          "sha256": "763d28adcabb2990a0a1efcbf1899cf10adf5cedb8bc30ea942dcd42e347a073"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part006.jsonl",
+          "sha256": "5abb285ffa1631beed2ec7e8e2e2489612c9a6cc1c3d4852aa3f6c2cf411aed1"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part007.jsonl",
+          "sha256": "6b22edcea45b8e6db5a0ecb4c9ee34cc1da35895065556a20cd403fc28b7c1dc"
+        },
+        {
+          "path": "sources/jevify/go_emotions/test-part008.jsonl",
+          "sha256": "077de5241076e199a0c583488d02f81405283e684c0643efbeccc0dd77a54541"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/mmlu/test.jsonl",
+      "sha256": "588eb716bf5f7f00ef026d749b7891e24724cfdd0b23da523738e9e4806b89a1",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/mmlu/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/mmlu/test-part000.jsonl",
+          "sha256": "d7b291b7152671d08a4eaad741136da069eca765f8ec6260e4053328d6ebdd1f"
+        },
+        {
+          "path": "sources/jevify/mmlu/test-part001.jsonl",
+          "sha256": "370619b89823756f76d439c74acf8273a31b9528c3f25982d77bfd39ebbd8fe9"
+        },
+        {
+          "path": "sources/jevify/mmlu/test-part002.jsonl",
+          "sha256": "c7bd698729b6b5e031725c7511de695a41afdb15ac6d292008b38e246555bb2e"
+        },
+        {
+          "path": "sources/jevify/mmlu/test-part003.jsonl",
+          "sha256": "5db6f38e6883b1f8c0d18742e27012c48ee3dbee85a3888041eef766d0d38168"
+        },
+        {
+          "path": "sources/jevify/mmlu/test-part004.jsonl",
+          "sha256": "d99669310c071ada63d6ddd158d5b4f428feb83af396effdb9cb74d024169eb2"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/arc_challenge/test.jsonl",
+      "sha256": "c3fe1e8720c873d0621f0adc9d3246c24c9cfdcfb019724eafa601383c7fdb8b",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/arc_challenge/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/arc_challenge/test-part000.jsonl",
+          "sha256": "684162193ea5b6f224fb0ffd0d927803b4c7675037146f707af4cb319198440c"
+        },
+        {
+          "path": "sources/jevify/arc_challenge/test-part001.jsonl",
+          "sha256": "1ea8ed481e2d516d9dd996d51a6fe28c47976ec94718887148ca695f3b68d721"
+        },
+        {
+          "path": "sources/jevify/arc_challenge/test-part002.jsonl",
+          "sha256": "8a1fbf841ac05572c7c8f7dfc119092eb25d6a7ecd6081f14990767d88d852ba"
+        },
+        {
+          "path": "sources/jevify/arc_challenge/test-part003.jsonl",
+          "sha256": "e65518796bd18b5ec9fa7cc28280e6eaa3285a81cf1143cca3bce2aea1d7b65a"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/helpsteer2_helpfulness/test.jsonl",
+      "sha256": "848367911dbbbc8cc4f198b5c324f339ee485caf49b7f94ed31e8e380ec4f37e",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/helpsteer2_helpfulness/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part000.jsonl",
+          "sha256": "9fc21d74f6062804eb111ee608856f51d41a545ec681a2064591ce0627401750"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part001.jsonl",
+          "sha256": "f35f141c5d4bc17b18455d24a261a95e0a69121943ceaee633d401668bfd568c"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part002.jsonl",
+          "sha256": "00b27711adfed0f98ea21a0b43c1def6ab1fc12011932c8fca038ccf5972a1fc"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part003.jsonl",
+          "sha256": "73cb27405387602107f0bc16e21712441f40d661ab8b4ccafea6d384ac0e0a77"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part004.jsonl",
+          "sha256": "30e47cd094864b240f7f312c08ee8124943497772ef3439b2acccad389472f07"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part005.jsonl",
+          "sha256": "bdc353a0be42ef7f685f1e2be9d31ad274e733957988762d3074f59cafd9b840"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part006.jsonl",
+          "sha256": "619d38c8a6233bfbb1ec00dee790d6dc8ba77fb8f10e076bb37e4374911970b4"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part007.jsonl",
+          "sha256": "62677fc9903f28807fa3564fef03c07eb5867b8f50f9a6f9594b3d79593b657d"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part008.jsonl",
+          "sha256": "9a2f1c18160e4b418c9659499d36694214f3e73af3dbda8e9e665419ff297a3c"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part009.jsonl",
+          "sha256": "1a7041eb466566c54fbe357edc929dd224a420b5c46eb75745239c368af35bd4"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part010.jsonl",
+          "sha256": "f6169ddcdc4bf01701bbc95537568cb7861ccf161711747bf6303b48cb523844"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part011.jsonl",
+          "sha256": "182d74f19c83d937ec824740f8b85273c78cd07c6ec4967982e5d99decfa7fb9"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part012.jsonl",
+          "sha256": "275276031102f53bdd5f9c7a902e664c6209a71edc4c2575d560085f214f0d49"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part013.jsonl",
+          "sha256": "0e8dca44632446f45479f744199ba0a23f3d389143d859d5db389d44d82387e9"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part014.jsonl",
+          "sha256": "b1a8174d02ff76879bbce050323317c4ef477c540c551c58c9dd6a303ffc99e7"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part015.jsonl",
+          "sha256": "04a302b5b3f003086ba22703b1c66d7c260b237e63d71624f4d17ce21d218fd5"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_helpfulness/test-part016.jsonl",
+          "sha256": "cbd03f00da3ff9fd160fc5e094f405e2a617efb36e22ccaaa9a3c1ad5a6989f8"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/helpsteer2_verbosity/test.jsonl",
+      "sha256": "0a58f030380e963012558c66e3b404e807191ac2597b9f6b3550160de1bc29d6",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/helpsteer2_verbosity/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part000.jsonl",
+          "sha256": "cbd553d145424b8e1ecc82aa62a1e6dbf26b0da909e5897cbaf512cd1c5e6eb3"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part001.jsonl",
+          "sha256": "23e197e0390c5008c642e96775ea4d9861bdb90818a827f3ad424dcc1e8e23f1"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part002.jsonl",
+          "sha256": "02e887543f21c1fb4c98131a2b09b60a6d8714b940c225779ff8e354f8ad81f1"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part003.jsonl",
+          "sha256": "771c539b313ba6143e233805b99884d5fba3e0d0ac2afcab566e5d6ee76bdb67"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part004.jsonl",
+          "sha256": "b89de92be02957be56c83a5450cdfe0c91d8f2e47a060bcf1086dd84a92b2edd"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part005.jsonl",
+          "sha256": "78051ce3d498bc257f6f42c59129c37c9f011b9849f736757137a1ab33e70980"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part006.jsonl",
+          "sha256": "8bfed06d98435356e879ddeabf871e4276b4198ae39e7b4b7d4a14fc412a4810"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part007.jsonl",
+          "sha256": "c6011565863cb77384c7f200426fb6b460b45a569c0bd9e9950ba5e6c2025632"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part008.jsonl",
+          "sha256": "d05a43606d0c15d6ca9dc170b85df3f6c1fd409087f0de1932ea72d527aad803"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part009.jsonl",
+          "sha256": "fd2f6ed231f7b48490f2e28bae2b1d36ab520ed6ac39837ea871b23fdfea45f6"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part010.jsonl",
+          "sha256": "29a79ee8f0ad405ddad734100f53b7d638d50ac4a56f882e8aef8d65d321c54c"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part011.jsonl",
+          "sha256": "41f0490e7892f86db5660c1151b34ce26b5f3446cb9b9431f2d74934f88d7258"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part012.jsonl",
+          "sha256": "c25c20023c4ca167fb53df303b36ce3408990e27e1529a293b00f09281bbe454"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part013.jsonl",
+          "sha256": "6b376ae403c9f2f2b1948a9c840d29ccb86facd5bc746b61aeb92ac62ebf107b"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part014.jsonl",
+          "sha256": "8f4abdd4667194cec4a5197f36fac2c199199f622b63f811acdcd428d25cab3b"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part015.jsonl",
+          "sha256": "541a5d6df2a2949e36ce50d9ffafdbce89edf12a094628a9e48cea0d83629e4e"
+        },
+        {
+          "path": "sources/jevify/helpsteer2_verbosity/test-part016.jsonl",
+          "sha256": "762f3d52f37e7917e9b2179e4cb08044fb61c7d398690e30046d785de5b51c56"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/measuring_hate_speech/test.jsonl",
+      "sha256": "b8332c2677d657024690ba8acdb2fdd4c310969fa042798c513aa35da8a397e6",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/measuring_hate_speech/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/measuring_hate_speech/test-part000.jsonl",
+          "sha256": "5af78271022859c429a2750fb70cfb069fea4401a65384e1e794d7dafb939df2"
+        },
+        {
+          "path": "sources/jevify/measuring_hate_speech/test-part001.jsonl",
+          "sha256": "5e510d43d4bd2149ceb1fe2c899678e1dfb99ceac1ddfcd1944a08be9b213bda"
+        },
+        {
+          "path": "sources/jevify/measuring_hate_speech/test-part002.jsonl",
+          "sha256": "f9d615fe75aa7595c9af7c83df57e1ccd04ca38114aed2c90be900eae6220bf5"
+        },
+        {
+          "path": "sources/jevify/measuring_hate_speech/test-part003.jsonl",
+          "sha256": "922cba90ba6c3a3bcd7f2ac9dde52b3b4d8040144a548b1ab86157a5abbc4ec8"
+        },
+        {
+          "path": "sources/jevify/measuring_hate_speech/test-part004.jsonl",
+          "sha256": "7b07064a939dd5dda067c197613b38714d47aaa4a5e3f76a3ec682711435a1b5"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/boolq/test.jsonl",
+      "sha256": "92bef666d167e8a5a3c5895a6ce62f957029ea1fa39f20e6f8a0c8ded7646305",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/boolq/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/boolq/test-part000.jsonl",
+          "sha256": "3c2a23b1760a1f9fe39890d20631c07e2c5404744ca9eb85fc79b5e3cc976877"
+        },
+        {
+          "path": "sources/jevify/boolq/test-part001.jsonl",
+          "sha256": "a57d41acbac6fb3117f158c403e66500c0815078544b06e0cca6cc5c859ab59a"
+        },
+        {
+          "path": "sources/jevify/boolq/test-part002.jsonl",
+          "sha256": "97c7edbfef746d601daca3a2c09034dc04f0e743077f9ced912908d8614cfac3"
+        },
+        {
+          "path": "sources/jevify/boolq/test-part003.jsonl",
+          "sha256": "7d1e40563cfbc94c012663c4b5d46633e64cb565feac417f5e0116913c274411"
+        },
+        {
+          "path": "sources/jevify/boolq/test-part004.jsonl",
+          "sha256": "1f70afaab2ce3d11627a4ea7fe95eb094e00ec35c3ef1ddac7c465e32bbfc1a7"
+        },
+        {
+          "path": "sources/jevify/boolq/test-part005.jsonl",
+          "sha256": "a865afb055f0b9dae178100babad92443aff8e524c06e9210d34a5ca7dcd1c39"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/civil_comments/test.jsonl",
+      "sha256": "815f96a3cbc237c28f526c6a9a92792e8ea5cd71f6b10749e7ebd3968a2d3259",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/civil_comments/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/civil_comments/test-part000.jsonl",
+          "sha256": "d0a0c0a90e19684294a387c8f43a40d29c32cc224f563536b4a6d533fd592cdd"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part001.jsonl",
+          "sha256": "db6b09ee9cd1c0403cc710a86f46cac542be0dabc9b42ba6a930a5d9a205a3d5"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part002.jsonl",
+          "sha256": "ce04d721edcbebfb26ea7eea64d8945771c0889bbea12e3c0399bd1734effb88"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part003.jsonl",
+          "sha256": "363e0b2f8adeb148d7fefc5693ca3711c03b3a06ddb8dd763188906acf353795"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part004.jsonl",
+          "sha256": "fb87a9489f0d3f86dc5d68dacbdeb08e1dcac9ed07564e56ab24a4afb4375da1"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part005.jsonl",
+          "sha256": "3281fb489fa39ad1f484b77d579843d02c2d97db41b3c75465258593bb53c7e0"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part006.jsonl",
+          "sha256": "1f456b3b502c71deed2337ed301563a30f4ed9b6df31c46ed903bee9c898da3e"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part007.jsonl",
+          "sha256": "e337fed829c6161b6de4bf3164daf52cf2247470da9426d31b2a235688c97f38"
+        },
+        {
+          "path": "sources/jevify/civil_comments/test-part008.jsonl",
+          "sha256": "8223a3317d4278688bc2d9ec77641db88cf724514c298e0c7bd2d31dee32e54d"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/strategyqa_closed/test.jsonl",
+      "sha256": "c4dbcffcad1950b29efc9d43d9f55cb6c7a612cf593eb2025d86a826de6cb8c5",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/strategyqa_closed/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/strategyqa_closed/test-part000.jsonl",
+          "sha256": "248a3644b65d9edd98f9619c0de09547b1744b06e6580d48427d8cce9cdd10ba"
+        },
+        {
+          "path": "sources/jevify/strategyqa_closed/test-part001.jsonl",
+          "sha256": "d7c9d29e1d179b64806dc6855e846a12d3161d11f1c728b9ff2943cae1e118df"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/strategyqa_grounded/test.jsonl",
+      "sha256": "66eab9b24f0b1979a842e6049911edc61276e0c884d3d7624ef9b8bd44dcbff3",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/strategyqa_grounded/test.jsonl",
+      "parts": [
+        {
+          "path": "sources/jevify/strategyqa_grounded/test-part000.jsonl",
+          "sha256": "1e0ea10d0149206064ba207a40fc46ff99ff96de6544056ed8c1a9e1068150de"
+        },
+        {
+          "path": "sources/jevify/strategyqa_grounded/test-part001.jsonl",
+          "sha256": "1c9d2331bf509f83173a69ab7538de9b67bb10a48d001c41544df5dce6ef8c15"
+        },
+        {
+          "path": "sources/jevify/strategyqa_grounded/test-part002.jsonl",
+          "sha256": "c6feeee642d0c53ed892d5f2ca8b6a75ec926312da5437556cff9756f68733cc"
+        }
+      ]
+    },
+    {
+      "path": "sources/jevify/manifest.json",
+      "sha256": "eace4223d323a91f6554c13aaa501785d60d8f6c7e173bd4d7c284fb5f52209b",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/manifest.json"
+    },
+    {
+      "path": "sources/jev-frontier-100/items.jsonl",
+      "sha256": "dd107ba90de381eaa479408492e81d7222115782e5fe601ab43986f94cd1d0fa",
+      "url": "https://raw.githubusercontent.com/softpudding/jev-frontier-100/9abacec47394f3b393f81fbe3cdd524f028bc088/data/items.jsonl"
+    },
+    {
+      "path": "sources/jev-frontier-100/manifest.json",
+      "sha256": "36b770066f7f3f0b17321a41b09699d5101c1b7b3db889fccab5f457fb035060",
+      "url": "https://raw.githubusercontent.com/softpudding/jev-frontier-100/9abacec47394f3b393f81fbe3cdd524f028bc088/data/manifest.json"
+    },
+    {
+      "path": "sources/jev-frontier-100/LICENSE",
+      "sha256": "c944509bf87f8d3833d07a1a68339587938fe172b45017972bbaf701385b0763",
+      "url": "https://raw.githubusercontent.com/softpudding/jev-frontier-100/9abacec47394f3b393f81fbe3cdd524f028bc088/LICENSE"
+    },
+    {
+      "path": "sources/laya-feishu/cases.jsonl",
+      "sha256": "56bdd8cbb96fc65a07e1caf0c1ebcac03cb6a56079944a7af4bf03d71846e3ba",
+      "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/23a17522aa4942da6cce53a995a275760320b691/research/benchmarks/feishu_zh/data/cases.jsonl"
+    },
+    {
+      "path": "sources/laya-feishu/LICENSE",
+      "sha256": "fdf440e5214588d9edcdc1ec315cddbd8525fe509242c24989a8472d283325f4",
+      "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/23a17522aa4942da6cce53a995a275760320b691/research/benchmarks/feishu_zh/LICENSE"
+    },
+    {
+      "path": "sources/laya-feishu/SOURCE.json",
+      "sha256": "08e87111674e91b66390d266f79ee00aaea2ce613a2b320619ad7e685ea0d3be",
+      "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/23a17522aa4942da6cce53a995a275760320b691/research/benchmarks/feishu_zh/SOURCE.json"
+    },
+    {
+      "path": "sources/laya-feishu/prompts.py",
+      "sha256": "e7bb752c1907015f96e81b27793eeacb6832aaab8f21722aa2318ad0bfa5a3c4",
+      "url": "https://raw.githubusercontent.com/NandhaKishorM/laya/23a17522aa4942da6cce53a995a275760320b691/research/benchmarks/feishu_zh/prompts.py"
+    },
+    {
+      "path": "sources/typed-decisions/test.parquet",
+      "sha256": "4f294f218ea1da27f3efef936359389c62ea4d3973a41457732990f1d31b647c",
+      "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c76749ec58bd8c3d2ea706b31c333a9059c38f90/all/test-00000-of-00001.parquet"
+    },
+    {
+      "path": "sources/eve-rlcd/test-permitted.jsonl",
+      "sha256": "fff7e0b50910cc3f3f7610bbf74a8ddf8455a314edc530ea94ad045c19eba981",
+      "url": "https://github.com/anthony-maio/eve-rlcd/releases/download/data-v1/test.jsonl",
+      "source_md5": "15c33b165d70639d8bd7d23d624908f4",
+      "filtered_source_names": [
+        "bitext",
+        "banking77",
+        "boolq",
+        "triage"
+      ],
+      "parts": [
+        {
+          "path": "sources/eve-rlcd/test-permitted-part000.jsonl",
+          "sha256": "5669cd9e35d53e351bfded7bcfb264792e07a55331adbb75670814bfc71c2259"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part001.jsonl",
+          "sha256": "a29dac34bfe88a61a877dd7a5d4e9ae1d1ca0f3c405e7f001fea5c015d70db31"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part002.jsonl",
+          "sha256": "fdf9a6980a4d79fe5ad7209a8d70acefa3b3a822a1564920a549b6514cd276fd"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part003.jsonl",
+          "sha256": "8b84db8824f844de2c5c7b152562b5e01e2778472c94dce1ffece8f5f67e6381"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part004.jsonl",
+          "sha256": "0137f7bf8914f889e54698857324b4262296268b15f512fa8083991a6cf5535b"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part005.jsonl",
+          "sha256": "4e20c1d516803276a8fcd36dd6d9fffd8b45780aedb5bdcddfec61d1a3cda284"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part006.jsonl",
+          "sha256": "8c82a2633d293c8ab629de5c712f1b3af7004961548e6830a8e83131c3849d73"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part007.jsonl",
+          "sha256": "c01a875a8c81f68846f585aff9b50571967e5624e5c3eb78bb0860bfc2c32516"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part008.jsonl",
+          "sha256": "a97d3a4495ba87cc6f3baba2212df6fde43bac305d3f5a551d821dd9e8c94c67"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part009.jsonl",
+          "sha256": "1cc52a04661c99196230c12c174c4a7c09586c0ca11e77d9ea127149e506ec1a"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part010.jsonl",
+          "sha256": "df2fabc3e23ff092d99cca353a4e36761840446e74e45f14ca9f8ea25ae94fe1"
+        },
+        {
+          "path": "sources/eve-rlcd/test-permitted-part011.jsonl",
+          "sha256": "c2193ec5c18dbce1489a311129f37755e4b1aa022d74d2536a967b8151738cc1"
+        }
+      ]
+    },
+    {
+      "path": "sources/jev-decision-bench/LICENSE",
+      "sha256": "b6716963bb20364921cb5ad8d3bdaa385f792705f5be084dfcdca975f7508f8f",
+      "url": "https://raw.githubusercontent.com/OmarMujahid/jev-decision-bench/0883fa781729ab571005253f6b288ec67f49dd29/LICENSE"
+    },
+    {
+      "path": "sources/jev-decision-bench/builders/probes_common.py",
+      "sha256": "ee02ebb0fc81ee329d3de508d8f7058a12162473c2803ffca370c028b610d060",
+      "url": "https://raw.githubusercontent.com/OmarMujahid/jev-decision-bench/0883fa781729ab571005253f6b288ec67f49dd29/builders/probes_common.py"
+    },
+    {
+      "path": "sources/jev-decision-bench/builders/probes_known_weakness.py",
+      "sha256": "1b38164bbd1d935dfbf5ab63a7d2272dc96c3b80b2f3d227b30ceb019a161af4",
+      "url": "https://raw.githubusercontent.com/OmarMujahid/jev-decision-bench/0883fa781729ab571005253f6b288ec67f49dd29/builders/probes_known_weakness.py"
+    },
+    {
+      "path": "sources/jev-decision-bench/builders/probes_fresh_math.py",
+      "sha256": "449e02d3b4f32c7624b2702078f54ee4088cff3776117a15f411ffbe8990d71b",
+      "url": "https://raw.githubusercontent.com/OmarMujahid/jev-decision-bench/0883fa781729ab571005253f6b288ec67f49dd29/builders/probes_fresh_math.py"
+    }
+  ],
+  "jevify_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+  "frontier_revision": "9abacec47394f3b393f81fbe3cdd524f028bc088",
+  "laya_revision": "23a17522aa4942da6cce53a995a275760320b691",
+  "typed_revision": "c76749ec58bd8c3d2ea706b31c333a9059c38f90",
+  "eve_release": "data-v1",
+  "decision_revision": "0883fa781729ab571005253f6b288ec67f49dd29"
+}

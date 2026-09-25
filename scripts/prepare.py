@@ -3,6 +3,7 @@ import hashlib
 import json
 import urllib.request
 from pathlib import Path
+from chunked_jsonl import write_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 REV = 'f8ce71361165846101d02ebc83ad44e47ae44fc3'
@@ -12,14 +13,20 @@ def main():
     raw = ROOT / 'sources' / 'jevbench'
     raw.mkdir(parents=True, exist_ok=True)
     manifest = []
+    old_manifest = ROOT / 'sources/manifest.json'
+    old = {e['path']:e for e in json.loads(old_manifest.read_text(encoding='utf-8'))['files']} if old_manifest.exists() else {}
     groups = {t: [] for t in ('choice', 'noul', 'score')}
     for name in ('LICENSE', 'datasets/public/original.jsonl', 'datasets/public/easy.jsonl', 'datasets/public/hard.jsonl'):
         dest = raw / Path(name).name
-        if not dest.exists():
+        if dest.exists():data=dest.read_bytes()
+        elif old.get(name,{}).get('parts'):
+            data=b''.join((ROOT/p['path']).read_bytes() for p in old[name]['parts'])
+        else:
             data = urllib.request.urlopen(BASE + name, timeout=40).read()
             dest.write_bytes(data)
-        data = dest.read_bytes()
-        manifest.append({'path': name, 'url': BASE + name, 'sha256': hashlib.sha256(data).hexdigest()})
+        entry={'path': name, 'url': BASE + name, 'sha256': hashlib.sha256(data).hexdigest()}
+        if old.get(name,{}).get('parts'):entry['parts']=old[name]['parts']
+        manifest.append(entry)
         if not name.endswith('.jsonl'):
             continue
         for line in data.decode('utf-8').splitlines():
@@ -58,7 +65,7 @@ def main():
     for kind, records in groups.items():
         folder = ROOT / 'data' / kind
         folder.mkdir(parents=True, exist_ok=True)
-        (folder / 'eval.jsonl').write_text(''.join(json.dumps(r, ensure_ascii=False) + '\n' for r in records), encoding='utf-8')
+        write_rows(folder/'eval.jsonl',(json.dumps(r,ensure_ascii=False) for r in records))
     (ROOT / 'sources' / 'manifest.json').write_text(json.dumps({'revision': REV, 'files': manifest}, indent=2), encoding='utf-8')
     examples = ROOT / 'examples'
     examples.mkdir(exist_ok=True)

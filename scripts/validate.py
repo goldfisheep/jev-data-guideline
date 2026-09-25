@@ -80,7 +80,9 @@ def main():
     args = parser.parse_args()
     rows, errors = [], []
     for path in sorted((ROOT / 'data').glob('*/*.jsonl')):
-        for lineno, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
+        for lineno, line in enumerate(path.read_text(encoding='utf-8').split('\n'), 1):
+            if not line.strip():
+                continue
             try:
                 r = json.loads(line)
                 if r['task_type'] != path.parent.name:
@@ -94,8 +96,32 @@ def main():
     manifest = json.loads((ROOT/'sources/manifest.json').read_text(encoding='utf-8'))
     for entry in manifest['files']:
         path = ROOT / 'sources/jevbench' / Path(entry['path']).name
-        if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
+        if entry.get('parts'):
+            data=b''
+            for piece in entry['parts']:
+                p=ROOT/piece['path']
+                if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=piece['sha256']:
+                    errors.append({'error':'source part hash mismatch','path':piece['path']})
+                else:data+=p.read_bytes()
+        else:data=path.read_bytes() if path.exists() else b''
+        if hashlib.sha256(data).hexdigest() != entry['sha256']:
             errors.append({'error': 'source hash mismatch', 'path': entry['path']})
+    extended = ROOT / 'sources/extended_manifest.json'
+    if extended.exists():
+        extension = json.loads(extended.read_text(encoding='utf-8'))
+        for entry in extension['files']:
+            path = ROOT / entry['path']
+            if entry.get('parts'):
+                part_data=[]
+                for piece in entry['parts']:
+                    p=ROOT/piece['path']
+                    if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=piece['sha256']:
+                        errors.append({'error':'source part hash mismatch','path':piece['path']})
+                    else:part_data.append(p.read_bytes())
+                data=b''.join(part_data)
+            else:data=path.read_bytes() if path.exists() else b''
+            if hashlib.sha256(data).hexdigest() != entry['sha256']:
+                errors.append({'error': 'extended source hash mismatch', 'path': entry['path']})
     pending = sum(r.get('metadata',{}).get('review',{}).get('status') != 'accepted' for r in rows)
     report = {'records': len(rows), 'by_type': dict(collections.Counter(r.get('task_type') for r in rows)),
               'by_family': dict(collections.Counter(r.get('metadata',{}).get('family') for r in rows)),

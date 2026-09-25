@@ -1,0 +1,65 @@
+{
+  "records": 21461,
+  "by_type": {
+    "choice": 10657,
+    "noul": 6831,
+    "score": 3973
+  },
+  "by_source": {
+    "decision-bench-counting": 150,
+    "decision-bench-date_compare": 150,
+    "decision-bench-double_negation": 150,
+    "decision-bench-fresh_math": 120,
+    "decision-bench-number_compare": 150,
+    "decision-bench-two_hop": 150,
+    "eve-rlcd-banking77": 1000,
+    "eve-rlcd-bitext": 1000,
+    "eve-rlcd-boolq": 1000,
+    "eve-rlcd-triage": 822,
+    "frontier100": 100,
+    "jevbench": 231,
+    "jevify-arc_challenge": 1000,
+    "jevify-banking77": 1000,
+    "jevify-boolq": 1000,
+    "jevify-civil_comments": 2000,
+    "jevify-clinc150": 1000,
+    "jevify-go_emotions": 1000,
+    "jevify-helpsteer2_helpfulness": 1000,
+    "jevify-helpsteer2_verbosity": 1000,
+    "jevify-ledgar": 1000,
+    "jevify-massive": 1000,
+    "jevify-measuring_hate_speech": 1000,
+    "jevify-mmlu": 1000,
+    "jevify-strategyqa_closed": 687,
+    "jevify-strategyqa_grounded": 687,
+    "laya-feishu": 64,
+    "typed-decisions": 2000
+  },
+  "by_label_origin_kind": {
+    "synthetic_code": 1692,
+    "unspecified": 231,
+    "source_annotation": 17374,
+    "synthetic_author": 164,
+    "teacher_model": 2000
+  },
+  "by_split": {
+    "eval": 21461
+  },
+  "with_distribution_by_source": {
+    "jevify-go_emotions": 1000,
+    "typed-decisions": 2000,
+    "jevify-civil_comments": 2000,
+    "jevify-measuring_hate_speech": 1000
+  },
+  "declared_groups": 19287,
+  "identical_state_text_shared_across_sources": 1067,
+  "sources_in_shared_state_texts": {
+    "jevify-banking77": 66,
+    "eve-rlcd-banking77": 66,
+    "jevify-clinc150": 1,
+    "jevify-massive": 1,
+    "jevify-helpsteer2_helpfulness": 1000,
+    "jevify-helpsteer2_verbosity": 1000
+  },
+  "note": "Exact normalized text only. Multiple questions share one case; semantic paraphrases and source-overlap need human audit."
+}
