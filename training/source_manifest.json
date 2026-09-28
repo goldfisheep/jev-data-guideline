@@ -1,0 +1,322 @@
+{
+  "schema_version": "1",
+  "selection": "SHA-256 sort of source row ID, first 2,000 eligible train rows per Jevify config; all eligible official validation rows; exact normalized state exclusion against committed eval and between train/validation; typed cases split by workflow in build_training.py.",
+  "files": [
+    {
+      "source_id": "jevify-banking77",
+      "config": "banking77",
+      "upstream_split": "train",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/banking77/train.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "515819bb43ad25922e0c6ec920f2819e9103ed8208cd116e8ce1c22a69516b44",
+      "full_source_rows": 8000,
+      "selected_rows": 2000,
+      "snapshot_sha256": "55f6151f293b32286973c70ca913079afd00b9db708c39c2fc4b64e26b8fe50f",
+      "stored_sha256": "4d0c2f74bb8249a71249f07ec244ab4f78041fa3d2ae9ea80d58e28505bd21e1",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/banking77/train.jsonl-part000.gz",
+          "sha256": "4d0c2f74bb8249a71249f07ec244ab4f78041fa3d2ae9ea80d58e28505bd21e1",
+          "bytes": 147636
+        }
+      ],
+      "license": "cc-by-4.0 (PolyAI; mirror: mit)",
+      "excluded_eval_overlap": 625,
+      "excluded_validation_overlap": 0,
+      "excluded_duplicate_state_before_cap": 0
+    },
+    {
+      "source_id": "jevify-banking77",
+      "config": "banking77",
+      "upstream_split": "validation",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/banking77/validation.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "df0549826f804eee201c99020085a57de53a48f2f03d373912a47f52c142dcec",
+      "full_source_rows": 500,
+      "selected_rows": 459,
+      "snapshot_sha256": "022b2024289fc0b0a54d59e4da8f0028d1c20cb798928b99aeccba310b6d5896",
+      "stored_sha256": "823f724dfc4e633301b749e2a074d036078be19660c0701c1961435688e15a6c",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/banking77/validation.jsonl-part000.gz",
+          "sha256": "823f724dfc4e633301b749e2a074d036078be19660c0701c1961435688e15a6c",
+          "bytes": 35060
+        }
+      ],
+      "license": "cc-by-4.0 (PolyAI; mirror: mit)",
+      "excluded_eval_overlap": 41,
+      "excluded_duplicate_state": 0
+    },
+    {
+      "source_id": "jevify-go_emotions",
+      "config": "go_emotions",
+      "upstream_split": "train",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/go_emotions/train.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "f04de8b497af3f9bccf9baa03b400379a9f234cfc72037b82f5674ac8a38e3de",
+      "full_source_rows": 8000,
+      "selected_rows": 2000,
+      "snapshot_sha256": "ed48f15ccb63694999fd46ea49be87f277a41016fc06e340d4a7f4c41721eee6",
+      "stored_sha256": "21c8c13f66aafedb83daba2c12a5f37ea8aefb516a6c26893d8f55fc92814348",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/go_emotions/train.jsonl-part000.gz",
+          "sha256": "21c8c13f66aafedb83daba2c12a5f37ea8aefb516a6c26893d8f55fc92814348",
+          "bytes": 155937
+        }
+      ],
+      "license": "apache-2.0",
+      "excluded_eval_overlap": 13,
+      "excluded_validation_overlap": 2,
+      "excluded_duplicate_state_before_cap": 0
+    },
+    {
+      "source_id": "jevify-go_emotions",
+      "config": "go_emotions",
+      "upstream_split": "validation",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/go_emotions/validation.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "fddcf21d9109b2844e73c500ed2ab90b20f235e5ffba2da1c884dfb07b94ef28",
+      "full_source_rows": 500,
+      "selected_rows": 499,
+      "snapshot_sha256": "1766f5c6b1c2394c15f69651bb42d7a574bcf860bf6b9648cd5044e1ae92737d",
+      "stored_sha256": "d8f14f0889172979c4d90d18bb81b9667c0617ec7cdae4cbd2681201c813ba8f",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/go_emotions/validation.jsonl-part000.gz",
+          "sha256": "d8f14f0889172979c4d90d18bb81b9667c0617ec7cdae4cbd2681201c813ba8f",
+          "bytes": 39860
+        }
+      ],
+      "license": "apache-2.0",
+      "excluded_eval_overlap": 1,
+      "excluded_duplicate_state": 0
+    },
+    {
+      "source_id": "jevify-boolq",
+      "config": "boolq",
+      "upstream_split": "train",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/boolq/train.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "89ced2bd33b71c6e853c185155681901e22a551970c7e810280c78517a9c08e3",
+      "full_source_rows": 8000,
+      "selected_rows": 2000,
+      "snapshot_sha256": "dc2f4daab65b93d48e0e1d97d7c4838804b46e81f5e407312d20cdf9a04a31ac",
+      "stored_sha256": "bd23e0d658bec420fe94852f124460675e42bb4ed6fbb0167ab7444826bf7d52",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/boolq/train.jsonl-part000.gz",
+          "sha256": "960fc8eac3725d17d3d118af9c30fd16ab9bdaf710b625d96b5682f872bd4332",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/boolq/train.jsonl-part001.gz",
+          "sha256": "c4c7813138fca4e7dd5c68dada2824f646411885a28c278a021007ce56be6ed1",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/boolq/train.jsonl-part002.gz",
+          "sha256": "4764d5b679d3d954ad0e3928a2fea7efa201a4dd2df0ef12ac98dbc42ff3df67",
+          "bytes": 150940
+        }
+      ],
+      "license": "cc-by-sa-3.0",
+      "excluded_eval_overlap": 0,
+      "excluded_validation_overlap": 0,
+      "excluded_duplicate_state_before_cap": 0
+    },
+    {
+      "source_id": "jevify-boolq",
+      "config": "boolq",
+      "upstream_split": "validation",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/boolq/validation.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "6fec5da0ead2c3635cec49929f0c1e37dcebab2d37cc6648bd9c3109337d5e98",
+      "full_source_rows": 472,
+      "selected_rows": 472,
+      "snapshot_sha256": "6fec5da0ead2c3635cec49929f0c1e37dcebab2d37cc6648bd9c3109337d5e98",
+      "stored_sha256": "3f69b538fe14ab6e1f93f4710032b99177ee2c26c454f878addfc350aee48eb1",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/boolq/validation.jsonl-part000.gz",
+          "sha256": "3f69b538fe14ab6e1f93f4710032b99177ee2c26c454f878addfc350aee48eb1",
+          "bytes": 130882
+        }
+      ],
+      "license": "cc-by-sa-3.0",
+      "excluded_eval_overlap": 0,
+      "excluded_duplicate_state": 0
+    },
+    {
+      "source_id": "jevify-helpsteer2_helpfulness",
+      "config": "helpsteer2_helpfulness",
+      "upstream_split": "train",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/helpsteer2_helpfulness/train.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "47e6fa0567823a81961d28ec34aacb6c2080344d39990bac7040ce98a9581c20",
+      "full_source_rows": 8000,
+      "selected_rows": 2000,
+      "snapshot_sha256": "8a73cfa605c80ba083c22e06c6ca081dae377c7fb95ec047ddebaa8892d02d7d",
+      "stored_sha256": "5fc3515f82c92ebf3657d782ec62a5548a89ce8ea161f69662307bf57f6a011e",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part000.gz",
+          "sha256": "19a04edff8fdd67b25453e08c2b75d65659ea5b830a8f805b32c9591436ad5ed",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part001.gz",
+          "sha256": "5a4718ef891b451329fd428372770e9a72d5990e68bb7ccbdcd5046aa8ad0048",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part002.gz",
+          "sha256": "ea7398c7317bae468246924ad923d53b1fa8d08976a2d04008d304e05a22bdec",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part003.gz",
+          "sha256": "50dc731462705b5f2a05e5a12a05d5c255e0caf3ad8a383a9b6a57379ab441ff",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part004.gz",
+          "sha256": "641c9f3f4bf7222793c0b12b68973f5d5cd86838eb738406858440c65ac598fa",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part005.gz",
+          "sha256": "db056c6723feed30f76d55c3266af7fc5e1d945af74efe772b02de1745df34cf",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part006.gz",
+          "sha256": "dd015fc9f3ddff356192f09e9238432870442e4b8f6f8888c25a0d7a09f7cdee",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/train.jsonl-part007.gz",
+          "sha256": "53e3090148eea4cf475c54b357c5e8d01d4399d1aebdfca0e88c2d29bba3f076",
+          "bytes": 76133
+        }
+      ],
+      "license": "cc-by-4.0",
+      "excluded_eval_overlap": 0,
+      "excluded_validation_overlap": 0,
+      "excluded_duplicate_state_before_cap": 0
+    },
+    {
+      "source_id": "jevify-helpsteer2_helpfulness",
+      "config": "helpsteer2_helpfulness",
+      "upstream_split": "validation",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/helpsteer2_helpfulness/validation.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "122ad4fbf4b4be26961ffb40df75b2ce31f52cfe6be3ffa6026e0667795dde64",
+      "full_source_rows": 500,
+      "selected_rows": 500,
+      "snapshot_sha256": "e2e6e3e8854334a68237a28b9247c146d2f50cacab45fb3451049240f06a09d5",
+      "stored_sha256": "172b2d6289e5e82c429bcc0d4893c76aec685e3bb1a103e46f4e054aa10b23a9",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/validation.jsonl-part000.gz",
+          "sha256": "724cd61451361d989c703f9fb448ebe1d21de41b343767eb6e660e200eee876e",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/jevify/helpsteer2_helpfulness/validation.jsonl-part001.gz",
+          "sha256": "c556602ec81b84672ea153f17b94447298ce851b73e319e3416d7ef048ab6a25",
+          "bytes": 165775
+        }
+      ],
+      "license": "cc-by-4.0",
+      "excluded_eval_overlap": 0,
+      "excluded_duplicate_state": 0
+    },
+    {
+      "source_id": "jevify-measuring_hate_speech",
+      "config": "measuring_hate_speech",
+      "upstream_split": "train",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/measuring_hate_speech/train.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "79aab30c69bfd45e20f81280fe9b9a7171dd2933d69a2698f672a5f39a9c63e0",
+      "full_source_rows": 8000,
+      "selected_rows": 2000,
+      "snapshot_sha256": "2b9aaea7cab552d5654f3f63936e693c764b05b4eea0264df1b69cf58831a03c",
+      "stored_sha256": "e814e65315c386de498122ef6b52afd762029af8a59966aaf3edcf39114e5c6f",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/measuring_hate_speech/train.jsonl-part000.gz",
+          "sha256": "e814e65315c386de498122ef6b52afd762029af8a59966aaf3edcf39114e5c6f",
+          "bytes": 196028
+        }
+      ],
+      "license": "cc-by-4.0",
+      "excluded_eval_overlap": 0,
+      "excluded_validation_overlap": 1,
+      "excluded_duplicate_state_before_cap": 0
+    },
+    {
+      "source_id": "jevify-measuring_hate_speech",
+      "config": "measuring_hate_speech",
+      "upstream_split": "validation",
+      "source_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench/resolve/f8c5fb0fb31194271f81ebc5d55f34afd13d499a/data/measuring_hate_speech/validation.jsonl",
+      "source_revision": "f8c5fb0fb31194271f81ebc5d55f34afd13d499a",
+      "full_source_sha256": "5748f42ea59f5ae11f7b3b36397c0b78f5c4674077b2ce8d8e47dc56aca44944",
+      "full_source_rows": 500,
+      "selected_rows": 500,
+      "snapshot_sha256": "5748f42ea59f5ae11f7b3b36397c0b78f5c4674077b2ce8d8e47dc56aca44944",
+      "stored_sha256": "fb8401d628b88bfa462573c17b4047902768f06649fb256f86c410c880b2295b",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "training/sources/jevify/measuring_hate_speech/validation.jsonl-part000.gz",
+          "sha256": "fb8401d628b88bfa462573c17b4047902768f06649fb256f86c410c880b2295b",
+          "bytes": 50728
+        }
+      ],
+      "license": "cc-by-4.0",
+      "excluded_eval_overlap": 0,
+      "excluded_duplicate_state": 0
+    },
+    {
+      "source_id": "typed-decisions",
+      "config": "all",
+      "upstream_split": "train",
+      "source_url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c76749ec58bd8c3d2ea706b31c333a9059c38f90/all/train-00000-of-00001.parquet",
+      "source_revision": "c76749ec58bd8c3d2ea706b31c333a9059c38f90",
+      "full_source_sha256": "46a58d63edfd86e23229c78afe8b72307bb4ca9fb0e8df180cabb3c67ec9dcd5",
+      "selected_rows": 1200,
+      "snapshot_sha256": "46a58d63edfd86e23229c78afe8b72307bb4ca9fb0e8df180cabb3c67ec9dcd5",
+      "stored_sha256": "46a58d63edfd86e23229c78afe8b72307bb4ca9fb0e8df180cabb3c67ec9dcd5",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "training/sources/typed-decisions/train-part000.parquet",
+          "sha256": "102c3f3481be59eee98afd27a5d5fbb2707398ed945a66b4637d99f6fce8eb6d",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/typed-decisions/train-part001.parquet",
+          "sha256": "0cc3927ea1f65b713026eb60e8c38971cadf61d94a2038f9d769222d66276611",
+          "bytes": 200000
+        },
+        {
+          "path": "training/sources/typed-decisions/train-part002.parquet",
+          "sha256": "610d0ea50a260fc8ca13747e1f266b8dd66fa49193a79f8f01fd3fab71b71584",
+          "bytes": 198824
+        }
+      ],
+      "license": "Apache-2.0",
+      "label_origin_kind": "teacher_model"
+    }
+  ]
+}

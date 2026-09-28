@@ -1,3 +1,4 @@
 * text=auto eol=lf
 sources/jevbench/* -text
 sources/** -text
+training/sources/** -text

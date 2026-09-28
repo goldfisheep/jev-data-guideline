@@ -1,0 +1,42 @@
+{
+  "records": 18430,
+  "by_split_type": {
+    "train": {
+      "choice": 5440,
+      "noul": 3440,
+      "score": 5920
+    },
+    "validation": {
+      "choice": 1318,
+      "noul": 832,
+      "score": 1480
+    }
+  },
+  "by_source": {
+    "jevify-banking77": 2459,
+    "jevify-go_emotions": 2499,
+    "jevify-boolq": 2472,
+    "jevify-helpsteer2_helpfulness": 2500,
+    "jevify-measuring_hate_speech": 2500,
+    "typed-decisions": 6000
+  },
+  "label_origin_kind": {
+    "source_annotation": 12430,
+    "teacher_model": 6000
+  },
+  "typed_decisions": {
+    "cases_by_workflow": {
+      "agent_trace_observability": 300,
+      "customer_service": 300,
+      "invoice_processing": 300,
+      "security_incidents": 300
+    },
+    "excluded_eval_overlap": 0,
+    "excluded_validation_state_overlap": 0,
+    "validation_cases": 240
+  },
+  "cross_split_or_eval_errors": [],
+  "automatic_checks_passed": true,
+  "human_review_complete": false,
+  "note": "No model training or human label review performed. Exact normalized state/group checks only; semantic near-duplicates may remain."
+}

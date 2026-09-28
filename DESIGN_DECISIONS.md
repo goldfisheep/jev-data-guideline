@@ -40,3 +40,9 @@
 - eve-rlcd 的可变候选列表按原顺序用稳定位置键包装。178 条含“以上都不是”的有序评分没有改成普通 score，留在来源快照，不进入统一评分文件。
 - Jev Frontier 100 同一个 pair_id 的两个变体共用 group_id；中文案例按原仓库固定 prompt 重建请求，不把 rationale 放入模型输入。
 - 保留所有来源文件校验值和原网址；统计时报告记录数与独立原题数的区别。原项目中的公开评测成绩不转写为本仓库的模型成绩。
+
+## 2026-09-29 训练数据补充
+
+应新需求，另设 `training/`，保留此前 `data/` 作为独立评测题。选择目录内 Jevify 五个许可明确的 train/validation 配置和 Laya 引用的 typed-decisions 官方训练文件。每个 Jevify 配置最多取 2,000 条训练题；typed-decisions 按案例划出本地验证集，教师标签与来源标签分开标记。按标准化输入排除与评测题完全相同的内容，并保持 train/validation 的原题组隔离。
+
+这次只完成单轮 choice、noul、score 的训练候选，不声称已有长程专家轨迹、可运行 RL 环境或组内人工审核。来源、计数、许可和重建过程见 `training/README.md` 与 `training/source_manifest.json`。

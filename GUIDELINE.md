@@ -36,7 +36,7 @@
 
 `metadata` 至少包括来源标识、来源 URL、版本、原始样本 ID、group_id、split、license、label_origin、language、transformation、review。group_id 表示同一原题及其派生题，不等于任务类别。
 
-有真实人工投票分布时，可在 gold 增加 `distribution` 和 `distribution_source`，按完整标签空间记录，概率之和为 1。本版没有这样的分布，不补造。模型输出的 probabilities、confidence 存在独立预测文件里，不能回填为标准答案。
+有真实人工投票分布时，可在 gold 增加 `distribution` 和 `distribution_source`，按完整标签空间记录，概率之和为 1。扩展来源中的部分 Jevify 样本带有人工投票分布；typed-decisions 则是教师模型参考分布，两者在 metadata 中区分，不补造概率。待测模型输出的 probabilities、confidence 存在独立预测文件里，不能回填为标准答案。
 
 ## 4. 怎么判断质量
 
@@ -69,7 +69,7 @@
 
 ## 6. 数据划分与评测约定
 
-这次已确认**只收录评测用测试集**。公开测试题统一置于 eval，同时保留 metadata.original_split；使用这些题调提示词后的结果只能作为开发结果。若以后另建训练用途，须另行确定来源、保留原划分，并保证同源/改写组不与评测集交叉。
+原评测整合**只收录评测用测试集**。公开测试题统一置于 eval，同时保留 metadata.original_split；使用这些题调提示词后的结果只能作为开发结果。后续单独增加的训练／验证数据放在 `training/`，保留来源划分并检查与评测题的精确重合，细节见 [training/README.md](training/README.md)。
 
 本版不运行模型；以下是后续评测应采用的约定：
 

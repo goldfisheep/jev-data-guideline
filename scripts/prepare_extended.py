@@ -36,7 +36,7 @@ def lines(path):
 def state_text(value):
     return value if isinstance(value,str) else json.dumps(value,ensure_ascii=False,sort_keys=True)
 
-def make(*,id,kind,state,question,label,source_id,source_url,revision,sample_id,group_id,license,label_origin,family,language='en',original_split='test',transform='Wrapped original state and question.',distribution=None,distribution_source=None,label_origin_kind='source_annotation'):
+def make(*,id,kind,state,question,label,source_id,source_url,revision,sample_id,group_id,license,label_origin,family,language='en',original_split='test',split='eval',transform='Wrapped original state and question.',distribution=None,distribution_source=None,label_origin_kind='source_annotation'):
     q=dict(question)
     q['type']=kind
     q['instructions']=str(q.get('instructions') or '').strip()
@@ -57,7 +57,7 @@ def make(*,id,kind,state,question,label,source_id,source_url,revision,sample_id,
         gold.update(distribution=distribution,distribution_source=distribution_source)
     r={'schema_version':'0.1','id':id,'task_type':kind,'input':{'state':state_text(state),'questions':{'q':q}},'gold':{'q':gold},'metadata':{
         'source_id':source_id,'source_url':source_url,'source_revision':revision,'source_sample_id':str(sample_id),'group_id':str(group_id),
-        'split':'eval','original_split':original_split,'license':license,'label_origin':label_origin,'label_origin_kind':label_origin_kind,'family':family,'language':language,
+        'split':split,'original_split':original_split,'license':license,'label_origin':label_origin,'label_origin_kind':label_origin_kind,'family':family,'language':language,
         'transformation':transform,'review':{'status':'pending','reviewers':[],'note':'Imported source label; local human verification pending.'}}}
     OUT[(kind,source_id)].append(r)
 

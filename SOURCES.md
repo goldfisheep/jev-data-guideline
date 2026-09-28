@@ -1,5 +1,7 @@
 # 数据来源
 
+单轮训练与验证数据另见 [training/README.md](training/README.md) 和 [training/source_manifest.json](training/source_manifest.json)。下文主要记录原评测目录的来源。
+
 ## 已实际接入
 
 来源：[fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench)

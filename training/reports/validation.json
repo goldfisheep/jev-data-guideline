@@ -1,0 +1,24 @@
+{
+  "records": 18430,
+  "train": 14800,
+  "validation": 3630,
+  "by_split_type": {
+    "train": {
+      "choice": 5440,
+      "noul": 3440,
+      "score": 5920
+    },
+    "validation": {
+      "choice": 1318,
+      "noul": 832,
+      "score": 1480
+    }
+  },
+  "source_snapshots_checked": 11,
+  "typed_cases_checked": 1200,
+  "eval_records_compared": 21461,
+  "automatic_checks_passed": true,
+  "errors": [],
+  "human_review_complete": false,
+  "note": "Checks exact normalized input and group overlap, structure, and source hashes. Semantic near-duplicate and label review remain."
+}
