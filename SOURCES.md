@@ -40,3 +40,7 @@
 本次只提交许可声明可确认的数据。项目仓库本身的开源许可证，不会自动覆盖其引用的第三方数据；每条样本的 `metadata.license` 记录对应的来源声明。原始文件中若包含不属于统一格式的记录，仍在来源快照保留；转换脚本会说明暂缓原因。
 
 较大的快照按字节分片保存在来源目录，`extended_manifest.json` 为每片记录 SHA-256，同时保留完整原文件的 SHA-256。`prepare_extended.py` 会自动拼接和验证，不需要手工还原。
+
+## 独立图像评测试用子集
+
+`visual/` 接入 [CLEVR v1.0 官方验证集](https://cs.stanford.edu/people/jcjohns/clevr/)的 32 张图片及对应问题。官方说明包含验证集答案，数据许可为 CC BY 4.0。具体原始 ZIP 地址、选样方式和文件校验值见 `visual/manifest.json`；转换规则及限制见 `visual/README.md`。这 32 条不计入上述纯文本评测数量。

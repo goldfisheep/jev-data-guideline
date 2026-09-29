@@ -4,7 +4,11 @@
 
 评测目录按开源清单逐项核对并整合了 **21,461 条候选判断**：choice 10,657、noul 6,831、score 3,973。记录来自多个来源，部分原题被拆成数个判断，部分底层语料也跨项目出现；计数不能等同于独立题数。评测题全部待本组人工复核。
 
+自动审计报告提示 1,067 处跨来源相同输入。正式统计应按来源与任务分别报告，并对语义近重复进行人工复核；当前不将总记录数解释为独立覆盖量。
+
 现另设 [training](training) 目录：**14,800 条训练候选、3,630 条验证候选**，不混入上述评测题。训练来源、划分和限制见 [training/README.md](training/README.md)。
+
+另设 [visual](visual/README.md) 图像评测试用子集，存放 32 条带实际图片的 CLEVR 候选题；它与上述纯文本题分别统计，尚无 VLM 模型成绩。
 
 ## 先看哪里
 
@@ -16,6 +20,7 @@
 | 开源目录 12 项逐条接入/暂缓原因 | [SOURCE_AUDIT_2026-09-25.md](SOURCE_AUDIT_2026-09-25.md) |
 | 三组数据 | [choice](data/choice) · [noul](data/noul) · [score](data/score) |
 | 单轮训练与验证数据 | [training/README.md](training/README.md) |
+| 图像评测试用子集 | [visual/README.md](visual/README.md) |
 | 每组一条完整示例 | [examples](examples) |
 | 自动检查结果 | [reports/validation.json](reports/validation.json) |
 | 来源分布与重复风险 | [reports/integration_audit.json](reports/integration_audit.json) |
@@ -41,9 +46,10 @@ python scripts/audit_integrated.py
 python -m unittest discover -s tests -v
 python scripts/export_inputs.py
 python scripts/validate_training.py
+python scripts/validate_visual.py
 ```
 
-最后一个命令在本地生成 `exports/requests.jsonl`，仅保留样本 ID 和模型输入，避免把标准答案一起传给模型。该导出文件可随时重建，不纳入仓库提交。
+`export_inputs.py` 在本地生成 `exports/requests.jsonl`，仅保留样本 ID 和模型输入，避免把标准答案一起传给模型。该导出文件可随时重建，不纳入仓库提交。
 
 仓库已包含获准接入的原始快照和转换后的数据，无需联网即可检查。JevBench 原有数据可用 `python scripts/prepare.py` 重建；扩展评测数据用 `python scripts/prepare_extended.py`；训练数据重建步骤见 [training/README.md](training/README.md)。读取 typed-decisions 的原始 Parquet 另需安装 `pyarrow`。重建会覆盖对应转换文件，也会把审核状态恢复为 pending，因此审核开始后不要直接覆盖正式数据。
 
@@ -52,3 +58,5 @@ python scripts/validate_training.py
 ## 当前交付边界
 
 已完成评测与单轮训练候选数据导入、格式转换、来源快照、校验及设计记录。本版没有运行 Jev 推理或模型训练，没有新的模型得分；自动检查报告不是评测成绩。部分来源使用教师模型或合成规则标签，见逐项清单。下一步按 REVIEW.md 试标，再讨论正式冻结。
+
+仓库当前公开；早期设计记录中“计划 private”是当时的意向，不代表当前设置。上游数据各自遵守其许可；仓库自写规范与工具尚无统一许可证，复用前需由维护者明确授权。
